@@ -1,0 +1,39 @@
+{
+  "name": "hackerspace",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.80.6",
+    "@react-three/fiber": "^8.13.7",
+    "@react-three/gltfjsx": "^4.3.4",
+    "@react-three/postprocessing": "^2.15.1",
+    "gsap": "^3.12.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scroll-parallax": "^3.4.2",
+    "react-three-fiber": "^6.0.13",
+    "scrollax": "^1.0.0",
+    "scrolltrigger": "^1.0.1",
+    "three": "^0.155.0",
+    "troika-3d-text": "^0.48.0-unicode.3",
+    "troika-3d-ui": "^0.48.0-unicode.3",
+    "troika-three-text": "^0.48.0-unicode.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+  }
+}
